@@ -1,0 +1,133 @@
+@mixin glow($colour) {
+  color: $colour;
+  text-shadow: 0 0 3px $colour;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #99c2f9;
+  font-size: 1.6em;
+  font-family: monospace;
+  background-color: black;
+  background-image: radial-gradient(rgba(0, 62, 0, 0.75), black 120%);
+  background-attachment: fixed;
+  height: 100vh;
+
+  &::after {
+    content: "";
+    position: fixed;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: repeating-linear-gradient(
+      0deg,
+      rgba(black, 0.15),
+      rgba(black, 0.15) 1px,
+      transparent 1px,
+      transparent 2px
+    );
+  }
+}
+
+.wrapper {
+  max-width: 450px;
+  margin: 30px auto;
+  padding: 10px 10px 100px;
+}
+
+pre {
+  font-size: 0.5vw;
+  color: #8fdd8f;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  @include glow(#fff);
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.smaller {
+  font-size: 0.6em;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+strong {
+  text-shadow: 0 0 1px;
+}
+
+::selection {
+  background: #0080ff;
+  text-shadow: none;
+}
+
+// colours taken from https://iamkate.com/data/12-bit-rainbow/
+.colour {
+  &1 {
+    @include glow(#c1b);
+  }
+
+  &2 {
+    @include glow(#ed0);
+  }
+
+  &3 {
+    @include glow(#0bc);
+  }
+
+  &4 {
+    @include glow(#a35);
+  }
+
+  &5 {
+    @include glow(#9d5);
+  }
+
+  &6 {
+    @include glow(#09c);
+  }
+
+  &7 {
+    @include glow(#c66);
+  }
+
+  &8 {
+    @include glow(#4d8);
+  }
+
+  &9 {
+    @include glow(rgb(94, 140, 220));
+  }
+
+  &10 {
+    @include glow(#e94);
+  }
+
+  &11 {
+    @include glow(#2cb);
+  }
+
+  &12 {
+    @include glow(#639);
+  }
+}
+
+.setup {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.setup ul {
+  font-size: 0.8em;
+}

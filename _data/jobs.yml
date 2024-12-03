@@ -1,0 +1,28 @@
+- name: Bandcamp
+  description: artist-first online music store
+  role: senior engineer
+  start: 2019
+  end: 2024
+
+- name: Bouncy Castle Network
+  description: booking systems & websites for bouncy castle hirers
+  role: lead developer
+  start: 2009
+  end: 2019
+
+- name: Metro Salvage
+  description: vehicle recycling and lead generation system
+  role: technical lead
+  start: 2011
+  end: 2012
+
+- name: Sizzle Media
+  description: web development agency
+  role: copywriter, web developer
+  start: 2009
+  end: 2012
+
+- name: Freelancing
+  role: copywriter, web developer
+  start: 2008
+  end: 2019

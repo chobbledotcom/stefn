@@ -1,0 +1,2 @@
+{% assign colour = colour | plus:1 %}
+colour{{ colour | modulo: 12 }}
