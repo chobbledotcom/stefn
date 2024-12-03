@@ -26,7 +26,7 @@ pkgs.stdenv.mkDerivation {
 
   nativeBuildInputs = with pkgs; [
     ruby_3_3
-    html-minifier
+    minify
   ];
 
   configurePhase = ''
@@ -39,7 +39,7 @@ pkgs.stdenv.mkDerivation {
     JEKYLL_ENV=production ${env}/bin/jekyll build --source . --destination _site --trace
 
     echo "Minifying HTML..."
-    html-minifier --input-dir _site --output-dir _site --collapse-whitespace --file-ext html
+    minify --all --recursive --output . _site
   '';
 
   installPhase = ''
