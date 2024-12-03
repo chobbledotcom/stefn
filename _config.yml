@@ -1,6 +1,3 @@
-plugins:
-  - jekyll-minifier
-
 collections:
   sites:
     output: false
@@ -9,9 +6,6 @@ collections:
   pages:
     output: true
     permalink: /:name/
-
-jekyll-minifier:
-    exclude: 'game/*'
 
 exclude:
   - .sass-cache/
