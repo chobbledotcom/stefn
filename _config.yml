@@ -14,8 +14,6 @@ jekyll-minifier:
     exclude: 'game/*'
 
 exclude:
-  - deploy-neocities
-  - build-jekyll
   - .sass-cache/
   - .jekyll-cache/
   - README.md
@@ -28,3 +26,5 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - shell.nix
+  - default.nix
