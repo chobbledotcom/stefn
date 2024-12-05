@@ -8,7 +8,7 @@
 
 - name: freeholdcottage.com
   href: https://freeholdcottage.com
-  source: https://git.sr.ht/~stfn/freehold-cottage
+  source: https://git.chobble.com/hosted-by-chobble/freehold-cottage
 
 - name: newbarnltd.co.uk
   href: https://newbarnltd.co.uk
@@ -16,10 +16,11 @@
 
 - name: stefn.co.uk
   href: https://stefn.co.uk
+  source: https://git.chobble.com/hosted-by-chobble/stefn
 
 - name: thisandthatcafe.co.uk
   href: https://thisandthatcafe.co.uk
-  source: https://git.sr.ht/~stfn/this-and-that
+  source: https://git.chobble.com/hosted-by-chobble/this-and-that
 
 - name: veganprestwich.co.uk
   href: https://veganprestwich.co.uk
