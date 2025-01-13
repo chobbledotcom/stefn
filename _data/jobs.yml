@@ -1,3 +1,8 @@
+- name: Chobble
+  description: ethical software development and consultancy
+  role: founder, ceo, thought leader, sole employee
+  start: 2024
+
 - name: Bandcamp
   description: artist-first online music store
   role: senior engineer
