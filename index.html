@@ -23,6 +23,14 @@ title: stefan burke
     <a rel="nofollow" href="https://signal.me/#eu/V-Vqw0HT-W4afWSe7-eHk5tQPsfHmdyH27f1dxptIIb21UtA18xGeYah4BC0g3tO">stef.06</a>
   </li>
   <li class="{% include colour %}">
+    <strong>instagram:</strong>
+    <a rel="nofollow" href="https://www.instagram.com/chobbledotcom">@chobbledotcom</a>
+  </li>
+  <li class="{% include colour %}">
+    <strong>patreon:</strong>
+    <a rel="nofollow" href="https://www.patreon.com/Chobble">chobble</a>
+  </li>
+  <li class="{% include colour %}">
     <strong>git:</strong> <a rel="nofollow" href="https://git.chobble.com">git.chobble.com</a>
   </li>
   <li class="{% include colour %}">
@@ -39,12 +47,12 @@ title: stefan burke
 
 <div class="smaller">
   <br />
-  <p class="{% include colour %}"><strong>sites I run:</strong></p>
+  <p class="{% include colour %}"><strong>sites I host:</strong></p>
   <ul>
     {% for item in site.data.sites %}
     <li class="{% include colour %}">
       <strong>{{ item.name }}</strong>
-      <a href="{{ item.href }}">visit</a>
+      <a rel="nofollow" href="{{ item.href }}">visit</a>
       {% if item.source %}/ <a rel="nofollow" href="{{ item.source }}">source</a>{% endif %}
     </li>
     {% endfor %}
