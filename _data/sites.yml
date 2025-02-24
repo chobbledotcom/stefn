@@ -1,7 +1,3 @@
-- name: blog.chobble.com
-  href: https://blog.chobble.com
-  source: https://git.chobble.com/chobble/blog
-
 - name: bluepitshousingaction.co.uk
   href: https://bluepitshousingaction.co.uk
   source: https://git.chobble.com/hosted-by-chobble/blue-pits
