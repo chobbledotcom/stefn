@@ -1,42 +1,37 @@
+- name: avocoffee.co.uk
+  source: https://git.chobble.com/hosted-by-chobble/avo-coffee
+
 - name: bluepitshousingaction.co.uk
-  href: https://bluepitshousingaction.co.uk
   source: https://git.chobble.com/hosted-by-chobble/blue-pits
 
 - name: chobble.com
-  href: https://chobble.com
   source: https://git.chobble.com/chobble/chobble-site
 
 - name: crumpsallfolkclub.co.uk
-  href: https://crumpsallfolkclub.co.uk
+
+- name: djmarkyt.co.uk
+  source: https://git.chobble.com/hosted-by-chobble/marky-t
 
 - name: freeholdcottage.com
-  href: https://freeholdcottage.com
   source: https://git.chobble.com/hosted-by-chobble/freehold-cottage
 
 - name: newbarnltd.co.uk
-  href: https://newbarnltd.co.uk
   source: https://git.chobble.com/hosted-by-chobble/newbarn
 
 - name: noktorum.com
-  href: https://noktorum.com
   source: https://git.chobble.com/hosted-by-chobble/noktorum
 
 - name: sallysbakesbury.co.uk
-  href: https://sallysbakesbury.co.uk
   source: https://git.chobble.com/hosted-by-chobble/sallys-bakes
 
 - name: stefn.co.uk
-  href: https://stefn.co.uk
   source: https://git.chobble.com/hosted-by-chobble/stefn
 
 - name: renegade-solar.co.uk
-  href: https://renegade-solar.co.uk
   source: https://git.chobble.com/hosted-by-chobble/renegade-solar
 
 - name: thisandthatcafe.co.uk
-  href: https://thisandthatcafe.co.uk
   source: https://git.chobble.com/hosted-by-chobble/this-and-that
 
 - name: veganprestwich.co.uk
-  href: https://veganprestwich.co.uk
   source: https://git.chobble.com/hosted-by-chobble/vegan-prestwich

@@ -56,7 +56,7 @@ title: stefan burke
     {% for item in site.data.sites %}
     <li class="{% include colour %}">
       <strong>{{ item.name }}</strong>
-      <a rel="nofollow" href="{{ item.href }}">visit</a>
+      <a rel="nofollow" href="https://{{ item.name }}">visit</a>
       {% if item.source %}/ <a rel="nofollow" href="{{ item.source }}">source</a>{% endif %}
     </li>
     {% endfor %}
