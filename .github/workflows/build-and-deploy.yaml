@@ -25,11 +25,9 @@ jobs:
 
       - name: Cache Nix store
         uses: actions/cache@v4
+        continue-on-error: true
         with:
-          path: |
-            /nix/store
-            /nix/var/nix/db
-            ~/.cache/nix
+          path: ~/.cache/nix
           key: nix-${{ runner.os }}-${{ hashFiles('flake.nix', 'flake.lock', 'Gemfile.lock', 'gemset.nix') }}
           restore-keys: |
             nix-${{ runner.os }}-
@@ -60,6 +58,15 @@ jobs:
         with:
           name: built-site
           path: _site
+
+      - name: Deploy to neocities
+        uses: bcomnes/deploy-to-neocities@v3
+        with:
+          api_key: ${{ secrets.NEOCITIES_API_KEY }}
+          cleanup: true
+          neocities_supporter: true
+          preview_before_deploy: false
+          dist_dir: _site
 
       - name: Deploy to Bunny
         uses: R-J-dev/bunny-deploy@v2.0.6
